@@ -11,10 +11,12 @@ I mostly copied what was done [here](https://github.com/microsoft/vscode-dev-con
 1. Copy the `.devcontainer` folder to your project
 2. Customize the files to your needs
 3. Open the project in Codespaces
+4. Run `bin/dev` inside the container to start the Rails server with ESBuild and Bun watchers
 
 ## What's in the box?
 
 - Ruby 3.4.4
+- Rails 8 application with React, Stimulus and Slim ready to run
 - PostgreSQL 17 (exposed locally on port 5433)
 - Valkey 8
 - Node LTS
